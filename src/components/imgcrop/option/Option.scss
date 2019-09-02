@@ -1,0 +1,23 @@
+.option {
+  margin-top: 20px;
+}
+.button {
+  box-sizing: border-box;
+  margin: 20px auto 0;
+  padding: 5px 10px;
+  background: #31ccf7;
+  color: #fff;
+  border-radius: 5px;
+  border-style: none;
+  user-select: none;
+  text-align:center;
+}
+.button:hover{
+  cursor: default;
+}
+.button.save{
+  background: #6bdc72;
+}
+.button.del{
+  background: #ea6767;
+}

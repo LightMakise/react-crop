@@ -1,0 +1,41 @@
+.cut {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 5;
+  border: 2px dashed red;
+  background: transparent !important;
+}
+
+.cut:hover {
+  cursor: move;
+}
+.size-text{
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, .2);
+  font-size: 12px;
+}
+.stretch {
+  position: absolute;
+  width: 10px;
+  height:10px;
+  bottom: -5px;
+  right: -5px;
+  border-radius: 50%;
+  background: transparent;
+  opacity: 1;
+  z-index: 6;
+}
+.cut img {
+  user-select:none;
+}
+.stretch:hover {
+  cursor: se-resize;
+}
+
+.hide {
+  display: none;
+}

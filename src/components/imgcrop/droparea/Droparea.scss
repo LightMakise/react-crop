@@ -1,0 +1,42 @@
+.droparea {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 3px dashed #cccccc;
+  .desc{
+    display: block;
+    color: #999;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 6;
+    font-size: 16px;
+    bottom: 100px;
+    span{
+      display: block;
+    }
+  }
+}
+.droparea img {
+  width: 100%;
+  height: 100%;
+}
+.no-border {
+  border:none;
+}
+.file-hover {
+  border: 3px dashed #31ccf7;
+}
+.layer {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255,255,255,1);
+  opacity: .8;
+}
