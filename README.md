@@ -41,7 +41,7 @@
 │   ├── start.js
 │   └── test.js
 └── src
-    ├── App.jsx								根组件
+    ├── App.jsx                             根组件
     ├── App.scss
     ├── App.test.js
     ├── components                          组件文件夹
