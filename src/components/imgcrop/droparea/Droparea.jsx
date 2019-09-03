@@ -69,7 +69,7 @@ class Droparea extends React.Component {
         limit: limit
       })
     })
-    this.props.loadingImgFinish({ width: droparea.offsetWidth, height: droparea.offsetHeight})
+    this.props.loadingImgFinish({ width: droparea.offsetWidth, height: droparea.offsetHeight })
     // this.cut.cutImg()
   }
   /**
@@ -87,6 +87,9 @@ class Droparea extends React.Component {
       this.getImgReal(file.result)
     }
   }
+  /**
+   * 获取图像真是尺寸
+   */
   getImgReal(imgUrl) {
     var image = new Image();
     image.src = imgUrl;
@@ -154,6 +157,9 @@ class Droparea extends React.Component {
       fileEnterArea: false
     })
   }
+  /**
+   * 图片保存
+   */
   save() {
     let img = document.querySelector('#result_img')
     // let type = 'image/png'
@@ -167,9 +173,15 @@ class Droparea extends React.Component {
     aLink.click()
     document.body.removeChild(aLink)
   }
+  /**
+   * 剪裁完成
+   */
   cutFinish() {
     this.props.cutFinish()
   }
+  /**
+   * 设置图片格式
+   */
   setImgType(v) {
     this.cut.setImgType(v)
   }

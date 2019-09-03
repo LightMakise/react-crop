@@ -60,6 +60,9 @@ class Cut extends React.Component {
       cutImgUrl: ''
     })
   }
+  /**
+   * 获取剪裁框的位置
+   */
   getCutDomPosition() {
     let cutDom = document.querySelector('.cut')
     if (!cutDom) return null
