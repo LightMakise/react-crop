@@ -15,7 +15,7 @@
 ```
 ├── README.md
 ├── README.old.md
-├── canvas.md                               所用到的vanvas命令
+├── canvas.md                               所用到的canvas命令
 ├── config                                  项目启动配置
 │   ├── env.js
 │   ├── jest
