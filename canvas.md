@@ -1,6 +1,6 @@
 # canvas
 
-#### drawImage
+### drawImage
 
 ##### 作用： 把Img绘制到canvas上
 
@@ -37,7 +37,7 @@ context.drawImage(img,sx,sy,swidth,sheight,x,y,width,height);
 
 
 
-#### getImageData 
+### getImageData 
 
 ##### 作用：getImageData() 方法返回 ImageData 对象，该对象拷贝了画布指定矩形的像素数据。就是把canvas的一部分转成Img
 
@@ -56,7 +56,7 @@ var imgData=context.getImageData(x,y,width,height);
 
 
 
-#### putImageData
+### putImageData
 
 ##### 作用： putImageData() 方法将图像数据（从指定的 ImageData 对象）放回画布上。
 
