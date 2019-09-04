@@ -191,9 +191,9 @@ class Cut extends React.Component {
   }
   /**
    * 图像剪裁
-   * 通过 getCutDomPosition ：获取剪裁区域相对图像的s位置  
+   * 通过 getCutDomPosition ：获取剪裁区域相对图像的位置  
    * sourceCanvae ： 一个canvas 用来存储上传的图片 宽高为 上传的图片的真实宽高
-   * 通过 drawImage 来绘制在 sourceCanvae
+   * 通过 drawImage 来绘制在 sourceCanvas
    * 拖动或者拉伸剪裁框 实时获取剪裁框cutDom的宽高和相对位置
    * cutResultCanvas ： 一个canvas 用来保存被剪裁的图像
    * 当获取到cutDom的宽高和位置时候在 sourceCanvae 上通过 getImageData 来获取被剪裁图像
